@@ -5,6 +5,7 @@ LABEL maintainer="Bluewhale <blue@owhale.com>"
 RUN apt-get update && \
     apt-get -y upgrade && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    build-essential \
     curl \
     git \
     software-properties-common \
